@@ -1,5 +1,7 @@
 body{
     background-image: url(https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-1097930.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: sans-serif;
 }
 
