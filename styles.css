@@ -18,3 +18,9 @@ h1, h2, h3{
     text-align: center;
 }
 
+hr{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+
+}
