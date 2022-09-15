@@ -1,16 +1,20 @@
 body{
-    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg);
+    background-image: url(https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?cs=srgb&dl=pexels-jess-bailey-designs-1097930.jpg);
+    font-family: sans-serif;
 }
 
 h1{
-
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;;
 }
 
 h2{
-
+    font-size: 30px;
 }
 
 h3{
+    font-size: 20px;
 
 }
 
@@ -23,4 +27,12 @@ hr{
     background-color: black;
     border-color: black;
 
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2{
+    font-family: Impact, serif;
 }
