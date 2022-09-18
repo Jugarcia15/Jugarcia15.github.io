@@ -85,27 +85,16 @@
   <h3>Contact Me: </h3>
   <p>Please fill out this form with the required information.</p>
   <fieldset>
-    <label for="first-name">Enter your First Name: <input required id="first-name" type="text/></label>
+    <label for="first-name">Enter your First Name: <input required id="first-name" type="text" /></label>
     <label for="last-name">Enter your Last Name: <input required id="last-name" type="text"/></label>
     <label for="email">Enter your email: <input required id="email" type="email"/></label>
     <label for="new-password">Create a new password: <input required type="password" id="new-password" pattern="[a-z0-9]{8,}" /></label>
-  </fieldset>
-
-  <input type="submit" value="Submit">
-
-  <fieldset>
-    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" /> Personal Account</label>
-    <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business Account</label>
-    <label for="terms-and-conditions">
-      <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+    <label for="message">Provide a message:
+      <textarea id="message" rows="3" cols="30" placeholder="I like the way this website is developing!"></textarea>
     </label>
   </fieldset>
-
+  <input type="submit" value="Submit">
 </section>
-
-<fieldset>
-  <label><input type="file"></label>
-</fieldset>
 
 <hr class="bottom-line">
 
