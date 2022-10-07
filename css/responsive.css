@@ -18,11 +18,16 @@
     .site-main > .project-area {
         width: 13rem;
     }
-
+    
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/50px var(--roboto);
+        padding: 2%;
+        border: 1px solid black;
+    }
 }
 
 
-/* if the viewport is = 340px or less*/
+/* if the viewport is = 792px or less*/
 
 @media only screen and (max-width: 792){
     .site-main .about-area .about-title h2 > span{
@@ -48,8 +53,13 @@
     .container{
         max-width: 90%;
     }
-
+    .container-fluid{
+        max-width: 90%;
+    }
     .site-main .about-area{
         padding: 3% 4%;
+    }
+    .site-main .contact-area{
+        padding: 2%;
     }
 }
